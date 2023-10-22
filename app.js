@@ -28,10 +28,10 @@ app.post("/",function(req,res){
         ]
      };
      const jsonData = JSON.stringify(data);
-     const url="https://us21.api.mailchimp.com/3.0/lists/eab3373534";
+     const url="https://us21.api.mailchimp.com/3.0/lists/ID";
      const options ={
         method: "POST",
-        auth: "siri:1f830b4239aee36863b8bec4bf058559-us21"
+        auth: "API_KEY"
      }
      
      
@@ -68,7 +68,3 @@ app.listen(process.env.PORT || 3000,function()
 });
 
 
-
-// 0e55cbd8944825bab4054a4b4bddc8ef-us21
-// eab3373534
-// 1f830b4239aee36863b8bec4bf058559-us21
