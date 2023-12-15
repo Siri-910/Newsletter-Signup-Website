@@ -1,0 +1,1 @@
+A dynamic newsletter website using Node.js that allows users to subscribe to newsletters and receive regular updates. The application will utilize API keys for secure communication with external services to fetch and manage newsletter content.
